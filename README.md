@@ -4,9 +4,15 @@ In this project, I analyzed POTUS's tweet behavior.
 
 
 I do the following:
-* Import Donald Trump’s tweets (@realdonaldtrump) and convert from raw JSON to tidy Pandas DataFrame in Jupyter Notebook
-* Conduct EDA, analyzing tweet sources and user behavior across devices and usage by time
-* Implement sentiment analysis to calculate tweet polarity distributions using the VADER  (Valence Aware Dictionary and Sentiment Reasoner) lexicon. I look at overall sentiment, polarity around key election and inauguration dates, mentions of “fake news”, and differences in sentiment distribution over keyword pairs and tweets with and without hashtags. Finally, for the most retweeted tweets, I find the retweet count and top 20 keywords.
+* **Data Import and Cleaning**: Import Donald Trump’s tweets (@realdonaldtrump) and convert from raw JSON to tidy Pandas DataFrame in Jupyter Notebook
+* **EDA**: Conduct EDA, analyzing tweet sources and user behavior across devices and usage by time
+* **Sentiment Analysis**: Implement sentiment analysis to calculate tweet polarity distributions using the VADER  (Valence Aware Dictionary and Sentiment Reasoner) lexicon. I look at overall sentiment, polarity around key election and inauguration dates, mentions of “fake news”, and differences in sentiment distribution over keyword pairs and tweets with and without hashtags. Finally, for the most retweeted tweets, I find the retweet count and top 20 keywords.
+
+Files:
+* *Trump-Twitter-Text.ipynb*: all code
+* *hw4-realdonaldtrump_tweets.json*: all data
+* *vader_lexicon.txt*: used for sentiment analysis
+
 
 Future work:
 
@@ -15,4 +21,4 @@ Future work:
 3. I could dive deeper into the history of Trump’s presidencies, aligning real-word events and media releases with the sentiment of his Tweets.
 4. For a more ML geared approach, I can extend this by building a Naive Bayes Classifier.
 
-Look out for any updates I make to this project!
+I am always open to feedback; feel free to ping me @emeri.zhang@berkeley.edu! I will push as I make updates to this project.
