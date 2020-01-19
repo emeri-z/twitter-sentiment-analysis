@@ -3,7 +3,7 @@
 In this project, I analyzed POTUS's tweet behavior.
 
 ### Introduction
-In this project, I analyzed POTUS's tweet behavior. I do the following: 
+In this project, I do the following: 
 * **Data Import and Cleaning**: Import Donald Trump’s tweets (@realdonaldtrump) and convert from raw JSON to tidy Pandas DataFrame in Jupyter Notebook
 * **EDA**: Conduct EDA, analyzing tweet sources and user behavior across devices and usage by time
 * **Sentiment Analysis**: Implement sentiment analysis to calculate tweet polarity distributions using the VADER  (Valence Aware Dictionary and Sentiment Reasoner) lexicon. I look at overall sentiment, polarity around key election and inauguration dates, mentions of “fake news”, and differences in sentiment distribution over keyword pairs and tweets with and without hashtags. Finally, for the most retweeted tweets, I find the retweet count and top 20 keywords.
